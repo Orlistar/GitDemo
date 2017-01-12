@@ -11,8 +11,15 @@
     tools:context="com.orlistar.gitdemo.MainActivity">
 
     <Button
+        android:id="@+id/btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="click"
-        android:text="Test" />
+        android:text="button1" />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="button2" />
 </RelativeLayout>
